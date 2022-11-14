@@ -1,0 +1,2 @@
+# EasyLeetCode
+EasyLeetCodeQ
