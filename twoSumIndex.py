@@ -43,7 +43,7 @@ class Solution:
 #print(aList) 
 so = Solution()
 print(so.twoSum([2,7,11,15],9))
-
+# my mistake is the duplicate like [0,0] which is not allowed, the reason is the statement for j in self.nums, it counted from the very begining with index i.
 
 #sample solution
 
