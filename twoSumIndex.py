@@ -38,12 +38,21 @@ class Solution:
                     return self.answerList
 
 
+<<<<<<< HEAD
 aList = [7,3,1,1,1,2,3,4]
 aList.pop(1)
 print(aList) 
 #so = Solution()
 #print(so.twoSum([2,7,11,15],9))
 
+=======
+#aList = [1,2,3,4]
+#aList.remove(1)
+#print(aList) 
+so = Solution()
+print(so.twoSum([2,7,11,15],9))
+# my mistake is the duplicate like [0,0] which is not allowed, the reason is the statement for j in self.nums, it counted from the very begining with index i.
+>>>>>>> 66dbbf2c965c750e05b5f566b75df54375c625e4
 
 #sample solution
 
@@ -67,7 +76,10 @@ class Solution:
 #0 one
 #1 two
 #2 three   so that we can get the index directly, and avoid the duplicate like [0,0]
+<<<<<<< HEAD
 
 #newSet = set(nums)
 #nums = list(newSet)
 #return len(nums)
+=======
+>>>>>>> 66dbbf2c965c750e05b5f566b75df54375c625e4
